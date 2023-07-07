@@ -82,13 +82,25 @@ nav a {
 .banner-content{
     max-width: 500px;
 }
-/* main sectin styles */
-
+/* main section styles */
+main{
+    max-width: 1140;
+    margin: 0 auto;
+    
+}
 
 /* about section styles */
 .about{
     padding: 130px;
     border-radius: 10px;
-    background: #fff8f3;
+    background: #FFD9BD;
     margin: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
+}
+.about-info{
+    text-align: center;
 }
